@@ -1,0 +1,44 @@
+# Go
+go
+transcoder
+
+# Go build artifacts
+/[a-z]_test.go.bak
+/[a-z].pb.go
+/[a-z].pb.go.orig
+/[a-z].pb.go.dat
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+.log.
+
+# FFmpeg cache
+hls_out/
+tmp/
+*.tmp
+
+# Kubernetes
+k8s/
+
+# Docker
+docker-compose.override.yml
+
+# HLS streams
+stream*/
